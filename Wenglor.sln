@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wenglor", "Wenglor\Wenglor.csproj", "{C634D699-EB95-4E13-9F68-70D5DA7BC846}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Image", "Image\Image.shproj", "{92ECD235-D821-411A-9237-9A3FC698ABF8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Extensions", "Extensions\Extensions.shproj", "{B065E0D5-ED28-460C-B4E2-63EC22745DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WenglorGUI", "WenglorGUI\WenglorGUI.csproj", "{A45C8F4B-12D0-4798-A8F9-19E852CA0523}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Image\Image.projitems*{92ecd235-d821-411a-9237-9a3fc698abf8}*SharedItemsImports = 13
+		Extensions\Extensions.projitems*{a45c8f4b-12d0-4798-a8f9-19e852ca0523}*SharedItemsImports = 4
+		Image\Image.projitems*{a45c8f4b-12d0-4798-a8f9-19e852ca0523}*SharedItemsImports = 4
+		Extensions\Extensions.projitems*{b065e0d5-ed28-460c-b4e2-63ec22745db6}*SharedItemsImports = 13
+		Extensions\Extensions.projitems*{c634d699-eb95-4e13-9f68-70d5da7bc846}*SharedItemsImports = 4
+		Image\Image.projitems*{c634d699-eb95-4e13-9f68-70d5da7bc846}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C634D699-EB95-4E13-9F68-70D5DA7BC846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C634D699-EB95-4E13-9F68-70D5DA7BC846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C634D699-EB95-4E13-9F68-70D5DA7BC846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C634D699-EB95-4E13-9F68-70D5DA7BC846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45C8F4B-12D0-4798-A8F9-19E852CA0523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45C8F4B-12D0-4798-A8F9-19E852CA0523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45C8F4B-12D0-4798-A8F9-19E852CA0523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45C8F4B-12D0-4798-A8F9-19E852CA0523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
